@@ -20,9 +20,6 @@ print(f"8 divided by 2 is {Test_Var}")
 #f = format
 #"is the words" & the {} denote the variable to be put into the words
 
-
-
-
 #integers
 age = 25
 
@@ -32,9 +29,22 @@ age = age + 1
 
 print (f"you are one year older your now {age}")
 
-
-
 #floats (integers with decimals)
 price = 19.99
 
 print(f"the price is ${price}")
+
+#boolean now
+
+has_game = True
+#most times used internally
+def Do_you_have_game():
+    if has_game:
+        print("you own the game")
+    else:
+        print(f"you need to pay ${price}")
+
+Do_you_have_game()
+#now change it
+has_game = False
+Do_you_have_game()
