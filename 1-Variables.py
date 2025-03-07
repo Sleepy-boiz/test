@@ -38,6 +38,7 @@ print(f"the price is ${price}")
 
 has_game = True
 #most times used internally
+#ignore the function i already knew how to do that
 def Do_you_have_game():
     if has_game:
         print("you own the game")
